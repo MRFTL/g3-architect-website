@@ -24,7 +24,7 @@ header {
     padding: 50px 240px;
 }
 
-.nav-title {
+.common-title {
     color: #131313;
     font-size: 3rem;
     font-weight: 700;
@@ -159,7 +159,7 @@ main {
     font-weight: 600;
 }
 
-.feature-description {
+.common-description {
     color: #727272;
     font-size: 1em;
     font-weight: 400;
@@ -180,6 +180,38 @@ main {
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
 }
 
+.architecture-bedi {
+    width: 100%;
+}
+
+.facts-card-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cards {
+    margin: 20px auto;
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    padding: 40px 50px;
+    text-align: center;
+}
+
+.heading {
+    color: #424242;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+.accomplishment {
+    color:#727272;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 0px;
+}
 
 /* id styles */
 
@@ -189,6 +221,15 @@ main {
     left: -100px;
     width: 340px;
     height: 200px;
+}
+
+#facts-title{
+    margin-bottom: 0px;
+}
+
+#facts-description{
+    margin-top: 25px;
+    max-width: 540px;
 }
 
 .hide {
@@ -217,6 +258,37 @@ main {
         grid-template-columns: 100%;
         margin: 0px auto;
     }
+
+    .container2 {
+        grid-template-columns: 100%;
+        gap: 50px;
+    }
+
+    .feature-description-part {
+        padding: 20px;
+    }
+
+    #special-button {
+        position: static;
+        margin-top: 20px;
+        width: 180px;
+        height: 90px;
+    }
+
+    .special-button-font {
+        color: #FFF;
+        font-size: 1.5rem;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .feature-image {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
 }
 
 
@@ -243,5 +315,27 @@ main {
         grid-template-columns: repeat(2, 1fr);
         gap: 15px;
         margin: 0px auto 10px auto;
+    }
+
+    #special-button {
+        position: static;
+        margin-top: 20px;
+        width: 180px;
+        height: 90px;
+    }
+
+    .special-button-font {
+        color: #FFF;
+        font-size: 1.5rem;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .feature-image {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
     }
 }
