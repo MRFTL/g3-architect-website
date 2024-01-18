@@ -207,10 +207,22 @@ main {
 }
 
 .accomplishment {
-    color:#727272;
+    color: #727272;
     font-size: 1.25rem;
     font-weight: 600;
     margin-top: 0px;
+}
+
+.sponsor {
+    text-align: center;
+}
+
+.sponsor-img-container {
+    margin-top: 50px;
+    margin: 100px;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
 }
 
 /* id styles */
@@ -223,11 +235,11 @@ main {
     height: 200px;
 }
 
-#facts-title{
+#facts-title {
     margin-bottom: 0px;
 }
 
-#facts-description{
+#facts-description {
     margin-top: 25px;
     max-width: 540px;
 }
@@ -241,6 +253,7 @@ main {
         padding: 20px;
     }
 
+    .sponsor-img-container,
     .facts-card-container,
     nav {
         flex-direction: column;
@@ -339,5 +352,9 @@ main {
         justify-content: center;
         align-items: center;
         padding: 10px;
+    }
+
+    .sponsor-img-container  {
+        flex-direction: column;
     }
 }
