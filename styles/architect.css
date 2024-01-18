@@ -241,6 +241,7 @@ main {
         padding: 20px;
     }
 
+    .facts-card-container,
     nav {
         flex-direction: column;
     }
@@ -264,6 +265,7 @@ main {
         gap: 50px;
     }
 
+    .facts,
     .feature-description-part {
         padding: 20px;
     }
